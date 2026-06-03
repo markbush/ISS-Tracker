@@ -3,113 +3,66 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		481569F41CB1A451002B1256 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481569F31CB1A451002B1256 /* MapKit.framework */; };
-		481569F61CB7F927002B1256 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569F51CB7F927002B1256 /* Extensions.swift */; };
-		481569F81CB7F95F002B1256 /* SatelliteElementSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569F71CB7F95F002B1256 /* SatelliteElementSet.swift */; };
-		481569FA1CB7F99D002B1256 /* MJD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569F91CB7F99D002B1256 /* MJD.swift */; };
-		481569FC1CB7F9B4002B1256 /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569FB1CB7F9B4002B1256 /* Vec3.swift */; };
-		481569FE1CB7F9F6002B1256 /* SatelliteElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569FD1CB7F9F6002B1256 /* SatelliteElements.swift */; };
-		48156A001CB7FA28002B1256 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481569FF1CB7FA28002B1256 /* Satellite.swift */; };
-		4864DE411CB92AF4004D757B /* TrackingOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE401CB92AF4004D757B /* TrackingOverlayViewController.swift */; };
-		4864DE431CB952F4004D757B /* CrewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE421CB952F4004D757B /* CrewTableViewController.swift */; };
-		4864DE451CB95351004D757B /* CrewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE441CB95351004D757B /* CrewMember.swift */; };
-		4864DE471CB9688B004D757B /* CrewMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE461CB9688B004D757B /* CrewMemberViewController.swift */; };
-		4864DE491CB97872004D757B /* CrewMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE481CB97872004D757B /* CrewMemberTableViewCell.swift */; };
-		4864DE4B1CBA305C004D757B /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE4A1CBA305C004D757B /* TweetTableViewCell.swift */; };
-		4864DE521CBAA005004D757B /* HTTPFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE511CBAA005004D757B /* HTTPFetcher.swift */; };
-		4864DE541CBAA055004D757B /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE531CBAA055004D757B /* Tweet.swift */; };
-		4864DE561CBAA07A004D757B /* Twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE551CBAA07A004D757B /* Twitter.swift */; };
-		4864DE5A1CC27A5C004D757B /* TwitterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE591CC27A5C004D757B /* TwitterEntity.swift */; };
-		4864DE5C1CC2ACF9004D757B /* TweetImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE5B1CC2ACF9004D757B /* TweetImageTableViewCell.swift */; };
-		4864DE5E1CC2E126004D757B /* TweetTwoImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DE5D1CC2E126004D757B /* TweetTwoImageTableViewCell.swift */; };
-		48C54F201CA96213003D316B /* ISS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C54F1F1CA96213003D316B /* ISS.swift */; };
-		48C54F221CA96A3D003D316B /* URLReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C54F211CA96A3D003D316B /* URLReader.swift */; };
-		48C54F241CA98B1A003D316B /* TLEReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C54F231CA98B1A003D316B /* TLEReader.swift */; };
-		48C54F261CADAC92003D316B /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C54F251CADAC92003D316B /* VideoPlayerViewController.swift */; };
-		48D9EF371CA95C3900EEFF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9EF361CA95C3900EEFF4E /* AppDelegate.swift */; };
-		48D9EF3E1CA95C3900EEFF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D9EF3C1CA95C3900EEFF4E /* Main.storyboard */; };
-		48D9EF401CA95C3900EEFF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D9EF3F1CA95C3900EEFF4E /* Assets.xcassets */; };
-		48D9EF4B1CA95C3900EEFF4E /* ISS_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9EF4A1CA95C3900EEFF4E /* ISS_TrackerTests.swift */; };
-		48D9EF561CA95C3900EEFF4E /* ISS_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9EF551CA95C3900EEFF4E /* ISS_TrackerUITests.swift */; };
-		48D9EF661CA95CDF00EEFF4E /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D9EF651CA95CDF00EEFF4E /* TrackerViewController.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		48D9EF471CA95C3900EEFF4E /* PBXContainerItemProxy */ = {
+		48DD88FC2FD025A100226AC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 48D9EF2B1CA95C3900EEFF4E /* Project object */;
+			containerPortal = 48DD88E62FD025A000226AC8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48D9EF321CA95C3900EEFF4E;
+			remoteGlobalIDString = 48DD88ED2FD025A000226AC8;
 			remoteInfo = "ISS Tracker";
 		};
-		48D9EF521CA95C3900EEFF4E /* PBXContainerItemProxy */ = {
+		48DD89062FD025A100226AC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 48D9EF2B1CA95C3900EEFF4E /* Project object */;
+			containerPortal = 48DD88E62FD025A000226AC8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 48D9EF321CA95C3900EEFF4E;
+			remoteGlobalIDString = 48DD88ED2FD025A000226AC8;
 			remoteInfo = "ISS Tracker";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		481569F31CB1A451002B1256 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		481569F51CB7F927002B1256 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		481569F71CB7F95F002B1256 /* SatelliteElementSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatelliteElementSet.swift; sourceTree = "<group>"; };
-		481569F91CB7F99D002B1256 /* MJD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJD.swift; sourceTree = "<group>"; };
-		481569FB1CB7F9B4002B1256 /* Vec3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
-		481569FD1CB7F9F6002B1256 /* SatelliteElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatelliteElements.swift; sourceTree = "<group>"; };
-		481569FF1CB7FA28002B1256 /* Satellite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
-		4864DE401CB92AF4004D757B /* TrackingOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackingOverlayViewController.swift; sourceTree = "<group>"; };
-		4864DE421CB952F4004D757B /* CrewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrewTableViewController.swift; sourceTree = "<group>"; };
-		4864DE441CB95351004D757B /* CrewMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrewMember.swift; sourceTree = "<group>"; };
-		4864DE461CB9688B004D757B /* CrewMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrewMemberViewController.swift; sourceTree = "<group>"; };
-		4864DE481CB97872004D757B /* CrewMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrewMemberTableViewCell.swift; sourceTree = "<group>"; };
-		4864DE4A1CBA305C004D757B /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
-		4864DE511CBAA005004D757B /* HTTPFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPFetcher.swift; sourceTree = "<group>"; };
-		4864DE531CBAA055004D757B /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
-		4864DE551CBAA07A004D757B /* Twitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Twitter.swift; sourceTree = "<group>"; };
-		4864DE591CC27A5C004D757B /* TwitterEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterEntity.swift; sourceTree = "<group>"; };
-		4864DE5B1CC2ACF9004D757B /* TweetImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetImageTableViewCell.swift; sourceTree = "<group>"; };
-		4864DE5D1CC2E126004D757B /* TweetTwoImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTwoImageTableViewCell.swift; sourceTree = "<group>"; };
-		48C54F1F1CA96213003D316B /* ISS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISS.swift; sourceTree = "<group>"; };
-		48C54F211CA96A3D003D316B /* URLReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLReader.swift; sourceTree = "<group>"; };
-		48C54F231CA98B1A003D316B /* TLEReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLEReader.swift; sourceTree = "<group>"; };
-		48C54F251CADAC92003D316B /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
-		48D9EF331CA95C3900EEFF4E /* ISS Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D9EF361CA95C3900EEFF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48D9EF3D1CA95C3900EEFF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		48D9EF3F1CA95C3900EEFF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48D9EF411CA95C3900EEFF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48D9EF461CA95C3900EEFF4E /* ISS TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D9EF4A1CA95C3900EEFF4E /* ISS_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS_TrackerTests.swift; sourceTree = "<group>"; };
-		48D9EF4C1CA95C3900EEFF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48D9EF511CA95C3900EEFF4E /* ISS TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D9EF551CA95C3900EEFF4E /* ISS_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS_TrackerUITests.swift; sourceTree = "<group>"; };
-		48D9EF571CA95C3900EEFF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48D9EF651CA95CDF00EEFF4E /* TrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		48DD88EE2FD025A000226AC8 /* ISS Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ISS Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DD88FB2FD025A100226AC8 /* ISS TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DD89052FD025A100226AC8 /* ISS TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ISS TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		48DD88F02FD025A000226AC8 /* ISS Tracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ISS Tracker";
+			sourceTree = "<group>";
+		};
+		48DD88FE2FD025A100226AC8 /* ISS TrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ISS TrackerTests";
+			sourceTree = "<group>";
+		};
+		48DD89082FD025A100226AC8 /* ISS TrackerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ISS TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		48D9EF301CA95C3900EEFF4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				481569F41CB1A451002B1256 /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48D9EF431CA95C3900EEFF4E /* Frameworks */ = {
+		48DD88EB2FD025A000226AC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D9EF4E1CA95C3900EEFF4E /* Frameworks */ = {
+		48DD88F82FD025A100226AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DD89022FD025A100226AC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,242 +72,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4864DE4C1CBA3465004D757B /* Orbit Calculation */ = {
+		48DD88E52FD025A000226AC8 = {
 			isa = PBXGroup;
 			children = (
-				48C54F1F1CA96213003D316B /* ISS.swift */,
-				48C54F231CA98B1A003D316B /* TLEReader.swift */,
-				481569F91CB7F99D002B1256 /* MJD.swift */,
-				481569FB1CB7F9B4002B1256 /* Vec3.swift */,
-				481569FD1CB7F9F6002B1256 /* SatelliteElements.swift */,
-				481569FF1CB7FA28002B1256 /* Satellite.swift */,
-				481569F71CB7F95F002B1256 /* SatelliteElementSet.swift */,
-			);
-			name = "Orbit Calculation";
-			sourceTree = "<group>";
-		};
-		4864DE4D1CBA3490004D757B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				48D9EF361CA95C3900EEFF4E /* AppDelegate.swift */,
-				48C54F211CA96A3D003D316B /* URLReader.swift */,
-				481569F51CB7F927002B1256 /* Extensions.swift */,
-				4864DE591CC27A5C004D757B /* TwitterEntity.swift */,
-				48D9EF3F1CA95C3900EEFF4E /* Assets.xcassets */,
-				48D9EF411CA95C3900EEFF4E /* Info.plist */,
-				4864DE511CBAA005004D757B /* HTTPFetcher.swift */,
-				4864DE531CBAA055004D757B /* Tweet.swift */,
-				4864DE551CBAA07A004D757B /* Twitter.swift */,
-			);
-			name = "Support Files";
-			sourceTree = "<group>";
-		};
-		4864DE4E1CBA34BB004D757B /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				48D9EF651CA95CDF00EEFF4E /* TrackerViewController.swift */,
-			);
-			name = Map;
-			sourceTree = "<group>";
-		};
-		4864DE4F1CBA34CF004D757B /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				48C54F251CADAC92003D316B /* VideoPlayerViewController.swift */,
-			);
-			name = Video;
-			sourceTree = "<group>";
-		};
-		4864DE501CBA34E7004D757B /* Crew */ = {
-			isa = PBXGroup;
-			children = (
-				4864DE461CB9688B004D757B /* CrewMemberViewController.swift */,
-				4864DE4A1CBA305C004D757B /* TweetTableViewCell.swift */,
-				4864DE421CB952F4004D757B /* CrewTableViewController.swift */,
-				4864DE481CB97872004D757B /* CrewMemberTableViewCell.swift */,
-				4864DE441CB95351004D757B /* CrewMember.swift */,
-				4864DE5B1CC2ACF9004D757B /* TweetImageTableViewCell.swift */,
-				4864DE5D1CC2E126004D757B /* TweetTwoImageTableViewCell.swift */,
-			);
-			name = Crew;
-			sourceTree = "<group>";
-		};
-		48D9EF2A1CA95C3900EEFF4E = {
-			isa = PBXGroup;
-			children = (
-				481569F31CB1A451002B1256 /* MapKit.framework */,
-				48D9EF351CA95C3900EEFF4E /* ISS Tracker */,
-				48D9EF491CA95C3900EEFF4E /* ISS TrackerTests */,
-				48D9EF541CA95C3900EEFF4E /* ISS TrackerUITests */,
-				48D9EF341CA95C3900EEFF4E /* Products */,
+				48DD88F02FD025A000226AC8 /* ISS Tracker */,
+				48DD88FE2FD025A100226AC8 /* ISS TrackerTests */,
+				48DD89082FD025A100226AC8 /* ISS TrackerUITests */,
+				48DD88EF2FD025A000226AC8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		48D9EF341CA95C3900EEFF4E /* Products */ = {
+		48DD88EF2FD025A000226AC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48D9EF331CA95C3900EEFF4E /* ISS Tracker.app */,
-				48D9EF461CA95C3900EEFF4E /* ISS TrackerTests.xctest */,
-				48D9EF511CA95C3900EEFF4E /* ISS TrackerUITests.xctest */,
+				48DD88EE2FD025A000226AC8 /* ISS Tracker.app */,
+				48DD88FB2FD025A100226AC8 /* ISS TrackerTests.xctest */,
+				48DD89052FD025A100226AC8 /* ISS TrackerUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		48D9EF351CA95C3900EEFF4E /* ISS Tracker */ = {
-			isa = PBXGroup;
-			children = (
-				4864DE4D1CBA3490004D757B /* Support Files */,
-				4864DE4C1CBA3465004D757B /* Orbit Calculation */,
-				4864DE4E1CBA34BB004D757B /* Map */,
-				4864DE4F1CBA34CF004D757B /* Video */,
-				4864DE501CBA34E7004D757B /* Crew */,
-				48D9EF3C1CA95C3900EEFF4E /* Main.storyboard */,
-				4864DE401CB92AF4004D757B /* TrackingOverlayViewController.swift */,
-			);
-			path = "ISS Tracker";
-			sourceTree = "<group>";
-		};
-		48D9EF491CA95C3900EEFF4E /* ISS TrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				48D9EF4A1CA95C3900EEFF4E /* ISS_TrackerTests.swift */,
-				48D9EF4C1CA95C3900EEFF4E /* Info.plist */,
-			);
-			path = "ISS TrackerTests";
-			sourceTree = "<group>";
-		};
-		48D9EF541CA95C3900EEFF4E /* ISS TrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				48D9EF551CA95C3900EEFF4E /* ISS_TrackerUITests.swift */,
-				48D9EF571CA95C3900EEFF4E /* Info.plist */,
-			);
-			path = "ISS TrackerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48D9EF321CA95C3900EEFF4E /* ISS Tracker */ = {
+		48DD88ED2FD025A000226AC8 /* ISS Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48D9EF5A1CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS Tracker" */;
+			buildConfigurationList = 48DD890F2FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS Tracker" */;
 			buildPhases = (
-				48D9EF2F1CA95C3900EEFF4E /* Sources */,
-				48D9EF301CA95C3900EEFF4E /* Frameworks */,
-				48D9EF311CA95C3900EEFF4E /* Resources */,
+				48DD88EA2FD025A000226AC8 /* Sources */,
+				48DD88EB2FD025A000226AC8 /* Frameworks */,
+				48DD88EC2FD025A000226AC8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				48DD88F02FD025A000226AC8 /* ISS Tracker */,
 			);
 			name = "ISS Tracker";
+			packageProductDependencies = (
+			);
 			productName = "ISS Tracker";
-			productReference = 48D9EF331CA95C3900EEFF4E /* ISS Tracker.app */;
+			productReference = 48DD88EE2FD025A000226AC8 /* ISS Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		48D9EF451CA95C3900EEFF4E /* ISS TrackerTests */ = {
+		48DD88FA2FD025A100226AC8 /* ISS TrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48D9EF5D1CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */;
+			buildConfigurationList = 48DD89122FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */;
 			buildPhases = (
-				48D9EF421CA95C3900EEFF4E /* Sources */,
-				48D9EF431CA95C3900EEFF4E /* Frameworks */,
-				48D9EF441CA95C3900EEFF4E /* Resources */,
+				48DD88F72FD025A100226AC8 /* Sources */,
+				48DD88F82FD025A100226AC8 /* Frameworks */,
+				48DD88F92FD025A100226AC8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48D9EF481CA95C3900EEFF4E /* PBXTargetDependency */,
+				48DD88FD2FD025A100226AC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				48DD88FE2FD025A100226AC8 /* ISS TrackerTests */,
 			);
 			name = "ISS TrackerTests";
+			packageProductDependencies = (
+			);
 			productName = "ISS TrackerTests";
-			productReference = 48D9EF461CA95C3900EEFF4E /* ISS TrackerTests.xctest */;
+			productReference = 48DD88FB2FD025A100226AC8 /* ISS TrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		48D9EF501CA95C3900EEFF4E /* ISS TrackerUITests */ = {
+		48DD89042FD025A100226AC8 /* ISS TrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48D9EF601CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS TrackerUITests" */;
+			buildConfigurationList = 48DD89152FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS TrackerUITests" */;
 			buildPhases = (
-				48D9EF4D1CA95C3900EEFF4E /* Sources */,
-				48D9EF4E1CA95C3900EEFF4E /* Frameworks */,
-				48D9EF4F1CA95C3900EEFF4E /* Resources */,
+				48DD89012FD025A100226AC8 /* Sources */,
+				48DD89022FD025A100226AC8 /* Frameworks */,
+				48DD89032FD025A100226AC8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				48D9EF531CA95C3900EEFF4E /* PBXTargetDependency */,
+				48DD89072FD025A100226AC8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				48DD89082FD025A100226AC8 /* ISS TrackerUITests */,
 			);
 			name = "ISS TrackerUITests";
+			packageProductDependencies = (
+			);
 			productName = "ISS TrackerUITests";
-			productReference = 48D9EF511CA95C3900EEFF4E /* ISS TrackerUITests.xctest */;
+			productReference = 48DD89052FD025A100226AC8 /* ISS TrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		48D9EF2B1CA95C3900EEFF4E /* Project object */ = {
+		48DD88E62FD025A000226AC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Mark Bush";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
 				TargetAttributes = {
-					48D9EF321CA95C3900EEFF4E = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = RPQMU3LC89;
-						SystemCapabilities = {
-							com.apple.Maps.iOS = {
-								enabled = 1;
-							};
-						};
+					48DD88ED2FD025A000226AC8 = {
+						CreatedOnToolsVersion = 26.5;
 					};
-					48D9EF451CA95C3900EEFF4E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 48D9EF321CA95C3900EEFF4E;
+					48DD88FA2FD025A100226AC8 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 48DD88ED2FD025A000226AC8;
 					};
-					48D9EF501CA95C3900EEFF4E = {
-						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 48D9EF321CA95C3900EEFF4E;
+					48DD89042FD025A100226AC8 = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 48DD88ED2FD025A000226AC8;
 					};
 				};
 			};
-			buildConfigurationList = 48D9EF2E1CA95C3900EEFF4E /* Build configuration list for PBXProject "ISS Tracker" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 48DD88E92FD025A000226AC8 /* Build configuration list for PBXProject "ISS Tracker" */;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 48D9EF2A1CA95C3900EEFF4E;
-			productRefGroup = 48D9EF341CA95C3900EEFF4E /* Products */;
+			mainGroup = 48DD88E52FD025A000226AC8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 48DD88EF2FD025A000226AC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48D9EF321CA95C3900EEFF4E /* ISS Tracker */,
-				48D9EF451CA95C3900EEFF4E /* ISS TrackerTests */,
-				48D9EF501CA95C3900EEFF4E /* ISS TrackerUITests */,
+				48DD88ED2FD025A000226AC8 /* ISS Tracker */,
+				48DD88FA2FD025A100226AC8 /* ISS TrackerTests */,
+				48DD89042FD025A100226AC8 /* ISS TrackerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		48D9EF311CA95C3900EEFF4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48D9EF401CA95C3900EEFF4E /* Assets.xcassets in Resources */,
-				48D9EF3E1CA95C3900EEFF4E /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48D9EF441CA95C3900EEFF4E /* Resources */ = {
+		48DD88EC2FD025A000226AC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D9EF4F1CA95C3900EEFF4E /* Resources */ = {
+		48DD88F92FD025A100226AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DD89032FD025A100226AC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,103 +232,83 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48D9EF2F1CA95C3900EEFF4E /* Sources */ = {
+		48DD88EA2FD025A000226AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4864DE5C1CC2ACF9004D757B /* TweetImageTableViewCell.swift in Sources */,
-				4864DE431CB952F4004D757B /* CrewTableViewController.swift in Sources */,
-				4864DE561CBAA07A004D757B /* Twitter.swift in Sources */,
-				481569F81CB7F95F002B1256 /* SatelliteElementSet.swift in Sources */,
-				48C54F241CA98B1A003D316B /* TLEReader.swift in Sources */,
-				4864DE411CB92AF4004D757B /* TrackingOverlayViewController.swift in Sources */,
-				4864DE4B1CBA305C004D757B /* TweetTableViewCell.swift in Sources */,
-				4864DE471CB9688B004D757B /* CrewMemberViewController.swift in Sources */,
-				4864DE5E1CC2E126004D757B /* TweetTwoImageTableViewCell.swift in Sources */,
-				4864DE451CB95351004D757B /* CrewMember.swift in Sources */,
-				4864DE521CBAA005004D757B /* HTTPFetcher.swift in Sources */,
-				4864DE491CB97872004D757B /* CrewMemberTableViewCell.swift in Sources */,
-				48D9EF661CA95CDF00EEFF4E /* TrackerViewController.swift in Sources */,
-				48D9EF371CA95C3900EEFF4E /* AppDelegate.swift in Sources */,
-				4864DE541CBAA055004D757B /* Tweet.swift in Sources */,
-				481569F61CB7F927002B1256 /* Extensions.swift in Sources */,
-				481569FA1CB7F99D002B1256 /* MJD.swift in Sources */,
-				481569FE1CB7F9F6002B1256 /* SatelliteElements.swift in Sources */,
-				48C54F261CADAC92003D316B /* VideoPlayerViewController.swift in Sources */,
-				48156A001CB7FA28002B1256 /* Satellite.swift in Sources */,
-				4864DE5A1CC27A5C004D757B /* TwitterEntity.swift in Sources */,
-				481569FC1CB7F9B4002B1256 /* Vec3.swift in Sources */,
-				48C54F221CA96A3D003D316B /* URLReader.swift in Sources */,
-				48C54F201CA96213003D316B /* ISS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D9EF421CA95C3900EEFF4E /* Sources */ = {
+		48DD88F72FD025A100226AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D9EF4B1CA95C3900EEFF4E /* ISS_TrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48D9EF4D1CA95C3900EEFF4E /* Sources */ = {
+		48DD89012FD025A100226AC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48D9EF561CA95C3900EEFF4E /* ISS_TrackerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		48D9EF481CA95C3900EEFF4E /* PBXTargetDependency */ = {
+		48DD88FD2FD025A100226AC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48D9EF321CA95C3900EEFF4E /* ISS Tracker */;
-			targetProxy = 48D9EF471CA95C3900EEFF4E /* PBXContainerItemProxy */;
+			target = 48DD88ED2FD025A000226AC8 /* ISS Tracker */;
+			targetProxy = 48DD88FC2FD025A100226AC8 /* PBXContainerItemProxy */;
 		};
-		48D9EF531CA95C3900EEFF4E /* PBXTargetDependency */ = {
+		48DD89072FD025A100226AC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 48D9EF321CA95C3900EEFF4E /* ISS Tracker */;
-			targetProxy = 48D9EF521CA95C3900EEFF4E /* PBXContainerItemProxy */;
+			target = 48DD88ED2FD025A000226AC8 /* ISS Tracker */;
+			targetProxy = 48DD89062FD025A100226AC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		48D9EF3C1CA95C3900EEFF4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48D9EF3D1CA95C3900EEFF4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		48D9EF581CA95C3900EEFF4E /* Debug */ = {
+		48DD890D2FD025A100226AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -474,38 +322,55 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
-		48D9EF591CA95C3900EEFF4E /* Release */ = {
+		48DD890E2FD025A100226AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RPQMU3LC89;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -513,132 +378,249 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = appletvos;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
-		48D9EF5B1CA95C3900EEFF4E /* Debug */ = {
+		48DD89102FD025A100226AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "ISS Tracker/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ISS-Tracker-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		48D9EF5C1CA95C3900EEFF4E /* Release */ = {
+		48DD89112FD025A100226AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
-				INFOPLIST_FILE = "ISS Tracker/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ISS-Tracker-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
-		48D9EF5E1CA95C3900EEFF4E /* Debug */ = {
+		48DD89132FD025A100226AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "ISS TrackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-TrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/ISS Tracker";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISS Tracker";
+				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
 		};
-		48D9EF5F1CA95C3900EEFF4E /* Release */ = {
+		48DD89142FD025A100226AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "ISS TrackerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-TrackerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/ISS Tracker";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ISS Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ISS Tracker";
+				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
 		};
-		48D9EF611CA95C3900EEFF4E /* Debug */ = {
+		48DD89162FD025A100226AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "ISS TrackerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-TrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = "ISS Tracker";
+				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
 		};
-		48D9EF621CA95C3900EEFF4E /* Release */ = {
+		48DD89172FD025A100226AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "ISS TrackerUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPQMU3LC89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.bushnet.ISS-TrackerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				TEST_TARGET_NAME = "ISS Tracker";
+				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48D9EF2E1CA95C3900EEFF4E /* Build configuration list for PBXProject "ISS Tracker" */ = {
+		48DD88E92FD025A000226AC8 /* Build configuration list for PBXProject "ISS Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48D9EF581CA95C3900EEFF4E /* Debug */,
-				48D9EF591CA95C3900EEFF4E /* Release */,
+				48DD890D2FD025A100226AC8 /* Debug */,
+				48DD890E2FD025A100226AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48D9EF5A1CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS Tracker" */ = {
+		48DD890F2FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48D9EF5B1CA95C3900EEFF4E /* Debug */,
-				48D9EF5C1CA95C3900EEFF4E /* Release */,
+				48DD89102FD025A100226AC8 /* Debug */,
+				48DD89112FD025A100226AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48D9EF5D1CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */ = {
+		48DD89122FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS TrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48D9EF5E1CA95C3900EEFF4E /* Debug */,
-				48D9EF5F1CA95C3900EEFF4E /* Release */,
+				48DD89132FD025A100226AC8 /* Debug */,
+				48DD89142FD025A100226AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48D9EF601CA95C3900EEFF4E /* Build configuration list for PBXNativeTarget "ISS TrackerUITests" */ = {
+		48DD89152FD025A100226AC8 /* Build configuration list for PBXNativeTarget "ISS TrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				48D9EF611CA95C3900EEFF4E /* Debug */,
-				48D9EF621CA95C3900EEFF4E /* Release */,
+				48DD89162FD025A100226AC8 /* Debug */,
+				48DD89172FD025A100226AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 48D9EF2B1CA95C3900EEFF4E /* Project object */;
+	rootObject = 48DD88E62FD025A000226AC8 /* Project object */;
 }
