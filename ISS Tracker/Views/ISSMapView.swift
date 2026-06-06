@@ -9,17 +9,21 @@ import SwiftUI
 import MapKit
 
 struct ISSMapView: View {
-  @ObservedObject var viewModel: ISSViewModel
+  @Environment(ISSViewModel.self) private var viewModel
   
   var body: some View {
     Map {
       // Historical Path
-      MapPolyline(coordinates: viewModel.historicalPath, contourStyle: .geodesic)
-        .stroke(.white.opacity(0.3), lineWidth: 1)
+      if viewModel.historicalPath.count > 1 {
+        MapPolyline(coordinates: viewModel.historicalPath, contourStyle: .geodesic)
+          .stroke(.white.opacity(0.3), lineWidth: 1)
+      }
       
       // Future Path
-      MapPolyline(coordinates: viewModel.futurePath, contourStyle: .geodesic)
-        .stroke(.white, lineWidth: 1)
+      if viewModel.futurePath.count > 1 {
+        MapPolyline(coordinates: viewModel.futurePath, contourStyle: .geodesic)
+          .stroke(.white, lineWidth: 1)
+      }
       
       // ISS Marker
       Annotation("ISS", coordinate: viewModel.coordinate) {
@@ -28,16 +32,18 @@ struct ISSMapView: View {
           .scaledToFit()
           .frame(width: 44, height: 44)
       }
-      
       // ISS Horizon
       MapCircle(center: viewModel.coordinate, radius: ISS.issHorizon)
         .foregroundStyle(.blue.opacity(0.1))
         .stroke(.blue, lineWidth: 1)
+      
     }
     .mapStyle(.hybrid(elevation: .realistic))
   }
 }
 
 #Preview {
-  ISSMapView(viewModel: ISSViewModel())
+  ISSMapView()
+    .environment(ISSViewModel())
 }
+

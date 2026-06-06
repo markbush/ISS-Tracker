@@ -33,15 +33,17 @@ class Satellite {
     }
   }
 
-  func update() {
-    self.updateForDate(Date())
+  func update() -> Bool {
+    return self.updateForDate(Date())
   }
 
-  func updateForDate(_ date: Date) {
+  @discardableResult func updateForDate(_ date: Date) -> Bool {
     if fabs(lastTLEUpdate.timeIntervalSinceNow) > (24.0 * 60.0 * 60.0) {
       if let tleReader = TleReader(tleSourceUrl: tleSourceUrl) {
         self.elementSet = SatelliteElementSet(name: name, line1: tleReader.tleLine1, line2: tleReader.tleLine2)
         lastTLEUpdate = Date()
+      } else {
+        return false
       }
     }
     let minutesPerDay = 24.0 * 60
@@ -83,5 +85,6 @@ class Satellite {
     let earthFlatSqr = pow(Satellite.earthFlattening, 2.0)
     let sinLatSqr = pow(sin(lattitudeRad), 2.0)
     self.height = r - Satellite.earthRadiusKM * (sqrt(1.0 - (2.0 * Satellite.earthFlattening - earthFlatSqr) * sinLatSqr))
+    return true
   }
 }

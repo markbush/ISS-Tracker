@@ -14,6 +14,7 @@ class ISSLocationService: ObservableObject {
   @Published var longitude: Double = 0
   @Published var altitude: Double = 0
   @Published var speed: Double = 0
+  @Published var tleAvailable: Bool = false
   
   @Published var historicalPath: [CLLocationCoordinate2D] = []
   @Published var futurePath: [CLLocationCoordinate2D] = []
@@ -35,8 +36,11 @@ class ISSLocationService: ObservableObject {
   }
   
   private func update() {
-    guard let iss = iss, let pathIss = pathIss else { return }
-    iss.update()
+    guard let iss = iss, let pathIss = pathIss else {
+      tleAvailable = false
+      return
+    }
+    tleAvailable = iss.update()
     
     self.latitude = iss.latitude
     self.longitude = iss.longitude

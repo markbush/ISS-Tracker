@@ -9,16 +9,18 @@ import Foundation
 import Combine
 import CoreLocation
 
+@Observable
 class ISSViewModel: ObservableObject {
-  @Published var latitude: Double = 0
-  @Published var longitude: Double = 0
-  @Published var altitude: Double = 0
-  @Published var speed: Double = 0
-  @Published var localTime: String = ""
+  var latitude: Double = 0
+  var longitude: Double = 0
+  var altitude: Double = 0
+  var speed: Double = 0
+  var localTime: String = ""
+  var tleAvailable: Bool = false
   
-  @Published var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
-  @Published var historicalPath: [CLLocationCoordinate2D] = []
-  @Published var futurePath: [CLLocationCoordinate2D] = []
+  var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
+  var historicalPath: [CLLocationCoordinate2D] = []
+  var futurePath: [CLLocationCoordinate2D] = []
   
   private var locationService = ISSLocationService()
   private var cancellables = Set<AnyCancellable>()
@@ -42,6 +44,7 @@ class ISSViewModel: ObservableObject {
   }
   
   private func updateFromService() {
+    self.tleAvailable = locationService.tleAvailable
     self.latitude = locationService.latitude
     self.longitude = locationService.longitude
     self.altitude = locationService.altitude

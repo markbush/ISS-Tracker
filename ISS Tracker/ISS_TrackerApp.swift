@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ISS_TrackerApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  @State private var viewModel = ISSViewModel()
+
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environment(viewModel)
     }
+  }
 }
+

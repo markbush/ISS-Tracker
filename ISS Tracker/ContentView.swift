@@ -8,18 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-  @StateObject private var viewModel = ISSViewModel()
+  @Environment(ISSViewModel.self) private var viewModel
   
   var body: some View {
-    ZStack(alignment: .bottom) {
-      ISSMapView(viewModel: viewModel)
-        .ignoresSafeArea()
-      
-      ISSInfoView(viewModel: viewModel)
-    }
+    ISSView()
   }
 }
 
 #Preview {
-    ContentView()
+  ContentView()
+    .environment(ISSViewModel())
 }
+

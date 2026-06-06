@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ISSInfoView: View {
-  @ObservedObject var viewModel: ISSViewModel
+  @Environment(ISSViewModel.self) private var viewModel
 
   var body: some View {
     HStack(alignment: .center) {
@@ -29,5 +29,6 @@ struct ISSInfoView: View {
 
 
 #Preview {
-  ISSInfoView(viewModel: ISSViewModel())
+  ISSInfoView()
+    .environment(ISSViewModel())
 }
