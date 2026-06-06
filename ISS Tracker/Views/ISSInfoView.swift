@@ -14,8 +14,8 @@ struct ISSInfoView: View {
     HStack(alignment: .center) {
       ISSStatView(title: "Lat", value: String(format: "%.2f°", viewModel.latitude))
       ISSStatView(title: "Long", value: String(format: "%.2f°", viewModel.longitude))
-      ISSStatView(title: "Alt", value: String(format: "%.0f km", viewModel.altitude))
-      ISSStatView(title: "Speed", value: String(format: "%.2f km/s", viewModel.speed))
+      ISSStatView(title: "Alt", value: viewModel.displayAltitude())
+      ISSStatView(title: "Speed", value: viewModel.displaySpeed())
       ISSStatView(title: "ISS Time", value: viewModel.localTime)
     }
     .padding(.vertical, 8)

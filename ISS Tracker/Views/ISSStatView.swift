@@ -14,10 +14,10 @@ struct ISSStatView: View {
   var body: some View {
     VStack(spacing: 4) {
       Text(title)
-        .font(.title2)
+        .font(.title3)
 //        .foregroundColor(.secondary)
       Text(value)
-        .font(.title3)
+        .font(.headline)
         .monospacedDigit()
     }
     .foregroundStyle(.white)

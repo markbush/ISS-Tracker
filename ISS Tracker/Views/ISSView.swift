@@ -38,5 +38,6 @@ struct ISSView: View {
 
 #Preview {
   ISSView()
+    .environment(ISSViewModel())
 }
 

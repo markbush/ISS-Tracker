@@ -11,7 +11,14 @@ struct ContentView: View {
   @Environment(ISSViewModel.self) private var viewModel
   
   var body: some View {
-    ISSView()
+#if os(iOS)
+    ContentNavigationView()
+#else
+    ContentTabView()
+#if os(visionOS)
+      .glassBackgroundEffect()
+#endif
+#endif
   }
 }
 
