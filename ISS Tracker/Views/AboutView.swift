@@ -12,7 +12,13 @@ struct AboutView: View {
   @State private var displayUnits: DisplayUnits = .metric
 
   private var appName: String {
-    Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String ?? "ISS-Tracker"
+    if let displayName = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String {
+      return displayName
+    }
+    if let name = Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String {
+      return name
+    }
+    return "ISS-Tracker"
   }
   
   private var version: String {
@@ -54,7 +60,7 @@ struct AboutView: View {
           Text("About")
             .font(.headline)
           
-          Text("\(appName) allows you to track the current location of the International Space Station (ISS).")
+          Text("\(appName) allows you to track the current location of the International Space Station (ISS).  The application uses TLE data published by ARISS (Amateur Radio on the International Space Station: https://www.ariss.org).  This provides snapshot location and trajectory information allowing the ISS live location and path to be calculated.")
             .lineSpacing(4)
           
           Text("Features:")
